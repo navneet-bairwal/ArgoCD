@@ -5,6 +5,7 @@ metadata:
   namespace: argo-app
   labels:
     app: nginx
+    test: argo
 spec:
   selector:
     matchLabels:
