@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-cm
+data:
+  service.github: |
+    appID: 227991
+    installationID: 28196230
+    privateKey: $github-privateKey
